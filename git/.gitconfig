@@ -1,3 +1,5 @@
 [user]
 	name = Ethan Madison
 	email = ethan@ethanmad.com
+[push]
+	default = simple
