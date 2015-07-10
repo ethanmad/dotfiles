@@ -1,0 +1,7 @@
+git
+i3
+nvim
+tmux
+vim
+x
+zsh
