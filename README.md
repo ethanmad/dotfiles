@@ -12,7 +12,7 @@ Back up your files and clear your home directory of files that will be provided 
 Stow will abort all operations if the files to be symlinked already exist in the home directory.
 
 ``` bash
-$ git clone https://github.com/ethanmad/dotfiles.git
+$ git clone --recursive https://github.com/ethanmad/dotfiles.git
 $ cd dotfiles
 $ ./install.sh
 ```
@@ -31,5 +31,7 @@ Dependencies
   - termite
   - neovim
   - git
-  - x
+  - xorg
+  - xorg-xinit
+  - xbindkeys
   - zsh
