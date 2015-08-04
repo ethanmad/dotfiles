@@ -5,3 +5,4 @@
 	default = simple
 [core]
 	editor = nvim
+	excludesfile = .config/git/ignore
