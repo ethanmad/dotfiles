@@ -17,3 +17,7 @@ set shiftwidth=4
 
 " Expand TABs to spaces
 set expandtab
+
+" Current line gets bolded
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
