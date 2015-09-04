@@ -27,6 +27,7 @@ Dependencies
 
   - i3
   - i3blocks
+  - dmenu2
   - inconsolata
   - termite
   - neovim
