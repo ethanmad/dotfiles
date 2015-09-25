@@ -1,3 +1,8 @@
+[options]
+
+font = Inconsolata 10
+clickable_url = true
+
 [colors]
 
 # Tartan colorscheme from xcolors.net (generated via terminal.sexy)
@@ -41,6 +46,3 @@ color7  = #d3d7cf
 color15 = #eeeeec
 
 
-[options]
-
-font = Inconsolata 10
