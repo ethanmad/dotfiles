@@ -1,6 +1,6 @@
 [options]
 
-font = Inconsolata 10
+font = inconsolata 14
 clickable_url = true
 
 [colors]
@@ -44,5 +44,3 @@ color14 = #34e2e2
 # white
 color7  = #d3d7cf
 color15 = #eeeeec
-
-

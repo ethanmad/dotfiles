@@ -6,3 +6,6 @@
 
 "/usr/bin/amixer -q sset Master 0% && /home/ethan/bin/notifyvolume"
     XF86AudioMute
+
+"sudo ~/linux-4.1-samus/scripts/setup/brightness --decrease"
+    Control+F6
