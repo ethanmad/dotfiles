@@ -28,9 +28,9 @@ font pango:inconsolata 14
 
 
 # Colors to be used throughout i3
-set $main_color #D08240
-set $border_color #86A032
-set $alert_color #7D1D04
+set $main_color #B0A3AD
+set $border_color #EBCFB7
+set $alert_color #4D250C
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
