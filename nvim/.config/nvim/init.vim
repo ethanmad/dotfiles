@@ -89,3 +89,6 @@ let g:markdown_fenced_languages = ['html', 'python', 'bash']
 
 " Enable powerline symbols
 let g:airline_powerline_fonts = 1
+
+" Run Neomake on write
+autocmd! BufWritePost * Neomake
