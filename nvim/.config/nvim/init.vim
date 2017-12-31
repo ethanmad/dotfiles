@@ -92,3 +92,6 @@ let g:airline_powerline_fonts = 1
 
 " Run Neomake on write
 autocmd! BufWritePost * Neomake
+
+" Set textwidth to 72 cols in mutt
+au BufRead /tmp/mutt-* set tw=72
