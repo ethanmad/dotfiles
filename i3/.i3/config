@@ -222,3 +222,15 @@ mode "$mode_gaps_outer" {
 
         bindsym Return mode "default"
         bindsym Escape mode "default"
+}
+
+# Keybind to open mail
+bindsym $mod+m exec termite -e neomutt
+
+# Brightness controls
+bindsym $mod+F6 exec "brightness --decrease"
+bindsym $mod+F7 exec "brightness --increase"
+
+# Keyboard brightness controls
+bindsym Mod1+$mod+F6 exec "keyboard_led --decrease"
+bindsym Mod1+$mod+F7 exec "keyboard_led --increase"
