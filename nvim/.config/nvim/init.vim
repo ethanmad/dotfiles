@@ -59,6 +59,8 @@ Plug 'benekastah/neomake'                                           " syntax che
 Plug 'tpope/vim-fugitive'                                           " Git wrapper
 Plug 'tpope/vim-surround'                                           " modify surroundings in pairs
 Plug 'Shougo/deoplete.nvim', { 'do': 'UpdateRemotePlugins' }        " keyword completion system
+Plug 'Shougo/neoinclude.vim'                                        " keyword completion from included files
+Plug 'zchee/deoplete-clang'                                         " clang completion for C(++)
 Plug 'jiangmiao/auto-pairs'                                         " pair handling for delimiters
 Plug 'tomasr/molokai'                                               " molokai color scheme
 Plug 'lervag/vimtex'                                                " TeX suport
@@ -77,6 +79,8 @@ hi CursorLine term=bold cterm=bold guibg=Grey40
 
 " Use deoplete for completion
 let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/clang'
 
 " Enable syntax highlighting for fenced code in markdown
 let g:markdown_fenced_languages = ['html', 'python', 'bash']
