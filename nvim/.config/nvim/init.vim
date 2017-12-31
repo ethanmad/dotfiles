@@ -68,6 +68,8 @@ Plug 'godlygeek/tabular'                                            " alignment 
 Plug 'plasticboy/vim-markdown'                                      " markdown syntax highlighting
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }   " fuzzy-file finder
 Plug 'airblade/vim-gitgutter'                                       " Git diff in gutter
+Plug 'vim-pandoc/vim-pandoc'                                        " Pandoc support
+Plug 'vim-pandoc/vim-pandoc-syntax'                                 " Pandoc syntax support
 call plug#end()
 
 " Use molokai colorscheme
