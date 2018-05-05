@@ -46,7 +46,7 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -fn "inconsolata-12:normal" -sb "$main_color" -h 25 -t -i'
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -fn "inconsolata-14:normal" -sb "$main_color" -h 38 -t -i'
 
 # change focus
 bindsym $mod+h focus left
