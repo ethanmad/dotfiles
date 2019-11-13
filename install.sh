@@ -6,14 +6,9 @@ for package in `cat package-list.txt`; do
 done
 echo "Packages stowed."
 
-# Install prezto
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
-
-# Set shell to ZSH if it's something else.
-if [ "$SHELL" != '/bin/zsh' ]; then
-    chsh -s /bin/zsh 
+# Set shell to fish if it's something else.
+if [ "$SHELL" != '/bin/fish' ]; then
+    chsh -s /bin/fish
 fi
 
 echo "Installation done."
